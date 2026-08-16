@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>哔哩哔哩 B站 · 介绍</title>
+<style>
+  :root{
+    --pink:#fb7299;
+    --pink-dark:#e85d87;
+    --blue:#23ade5;
+    --bg:#fff5f8;
+    --ink:#222;
+    --muted:#666;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:linear-gradient(160deg,#fff 0%,var(--bg) 60%);
+    color:var(--ink);line-height:1.7;
+  }
+  header{
+    background:linear-gradient(120deg,var(--pink),var(--blue));
+    color:#fff;text-align:center;padding:64px 20px 56px;
+  }
+  header h1{font-size:2.6rem;letter-spacing:2px}
+  header p{margin-top:10px;opacity:.95;font-size:1.05rem}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px 60px}
+  section{background:#fff;border-radius:16px;padding:28px 26px;margin-top:-28px;box-shadow:0 12px 40px rgba(251,114,153,.12)}
+  section+section{margin-top:26px}
+  h2{color:var(--pink-dark);font-size:1.4rem;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:6px;height:22px;background:var(--pink);border-radius:3px;display:inline-block}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:10px}
+  .card{background:var(--bg);border:1px solid #ffe1ec;border-radius:12px;padding:16px}
+  .card b{color:var(--pink-dark);font-size:1.5rem}
+  .card span{display:block;color:var(--muted);font-size:.9rem;margin-top:4px}
+  ul{padding-left:20px;margin-top:8px}
+  li{margin:6px 0}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .tag{background:#ffeaf2;color:var(--pink-dark);border-radius:999px;padding:5px 12px;font-size:.85rem}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;padding:26px 20px 40px}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>哔哩哔哩 bilibili</h1>
+  <p>中国年轻世代高度聚集的综合视频社区 · 弹幕文化发源地</p>
+</header>
+
+<div class="wrap">
+  <section>
+    <h2>一句话简介</h2>
+    <p>
+      哔哩哔哩（简称 B站）成立于 2009 年 6 月，2010 年正式定名，是以
+      <b>ACG（动画/漫画/游戏）</b>起家的弹幕视频社区，现已发展为覆盖动画、游戏、知识、科技、生活、影视等
+      7000+ 兴趣圈层的综合性视频平台。官方使命是“丰富中国年轻一代的日常生活”。[9](@ref)
+    </p>
+  </section>
+
+  <section>
+    <h2>核心数据（2026 Q1）</h2>
+    <div class="grid">
+      <div class="card"><b>3.76 亿</b><span>月活跃用户 MAU</span></div>
+      <div class="card"><b>1.15 亿</b><span>日活跃用户 DAU</span></div>
+      <div class="card"><b>3400 万</b><span>月付费用户 MPU</span></div>
+      <div class="card"><b>119 分钟</b><span>日均使用时长</span></div>
+    </div>
+    <p style="margin-top:12px;color:var(--muted);font-size:.88rem">
+      数据来源：B站 2026 年第一季度财报披露。[5](@ref)
+    </p>
+  </section>
+
+  <section>
+    <h2>内容生态与特色</h2>
+    <ul>
+      <li><b>弹幕互动</b>：首创“弹幕”实时评论机制，观看氛围感强。</li>
+      <li><b>PUGV 为主</b>：专业用户创作视频（UP 主）构成内容基本盘，OGV 自制/版权内容补充。</li>
+      <li><b>圈层丰富</b>：动画、番剧、游戏、音乐、舞蹈、科技、知识、生活、鬼畜、影视等。</li>
+      <li><b>社区门槛</b>：官方会员考试机制曾强化身份认同与归属感。</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">动画番剧</span><span class="tag">游戏电竞</span>
+      <span class="tag">知识科普</span><span class="tag">科技数码</span>
+      <span class="tag">生活 Vlog</span><span class="tag">鬼畜二创</span>
+      <span class="tag">直播</span><span class="tag">播客</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>商业模式</h2>
+    <ul>
+      <li><b>增值服务</b>：大会员、直播打赏、充电等（2025 年营收 119.28 亿元，最大收入来源）。[7](@ref)</li>
+      <li><b>广告</b>：品牌+效果广告（2025 年 100.58 亿元，同比 +22.8%）。[7](@ref)</li>
+      <li><b>移动游戏</b>：代理与自研（2025 年 63.95 亿元）。[7](@ref)</li>
+      <li><b>IP 衍生与电商</b>：周边、漫画、线下演出等。</li>
+    </ul>
+    <p>2025 年全年营收 <b>303.5 亿元</b>，首次实现全年 GAAP 口径盈利。[6,7](@ref)</p>
+  </section>
+
+  <section>
+    <h2>公司大事记</h2>
+    <ul>
+      <li>2009.06 — 前身 MikuFans 上线，创始人徐逸</li>
+      <li>2010.01 — 正式更名为 bilibili</li>
+      <li>2018.03 — 纳斯达克上市（BILI）</li>
+      <li>2021.03 — 港交所二次上市（9626.HK），2022 年转为双重主要上市</li>
+      <li>2025 — 成立 16 年，首次全年盈利，发力 AI 视频创作工具</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>官方入口</h2>
+    <p>
+      主站：<a href="https://www.bilibili.com" target="_blank">https://www.bilibili.com</a><br/>
+      投资者关系：<a href="https://ir.bilibili.com" target="_blank">https://ir.bilibili.com</a>
+      嘻嘻：<a href="video-Github.html" target="_blank">123</a>
+    </p>
+  </section>
+</div>
+
+<footer>
+  本页面为静态介绍页，数据截至 2026 Q1，仅供学习演示使用。
+</footer>
+
+</body>
+</html>
